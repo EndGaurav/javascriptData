@@ -1,0 +1,31 @@
+:root{
+    --primary-color: hsl(180, 76%, 42%);
+    --color-btn: hsl(180, 50%, 90%);
+    --color-text-dark: hsl(180, 50%, 96%);
+    --color-body-dark: hsl(180, 20%, 30%);
+    --color-body: hsl(180, 52%, 90%);
+}
+
+body{
+    background-color:var(--color-body);
+}
+
+.dark-mode{
+    background-color: var(--color-body-dark);
+    color: var(--color-text-dark);
+}
+
+h2{
+    color: var(--primary-color);
+}
+
+
+.toggle-btn{
+    outline: none;
+    border: none;
+    font-size: inherit;
+    padding: 1rem 1.2rem;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--color-btn);
+}
